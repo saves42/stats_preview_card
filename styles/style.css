@@ -5,3 +5,32 @@
     text-align: center;
 }
 
+body {
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* layout */
+.row-flex {
+    display: flex;
+}
+
+.col-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+/* main card */
+
+main {
+    
+    width: 80%;
+    top: 50%;
+}
+
+.info-container {
+    background-color: hsl(244, 38%, 16%);
+}
