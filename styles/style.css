@@ -33,12 +33,19 @@ main {
 }
 
 .info-container {
+    border-top-left-radius: 0.75em;
+    border-bottom-left-radius: 0.75em;
     background-color: hsl(244, 38%, 16%);
     justify-content: space-evenly;
 }
 
 .stats-container {
     display: flex;
+}
+
+.img-container img {
+    border-top-right-radius: 0.75em;
+    border-bottom-right-radius: 0.75em;
 }
 
 footer {
