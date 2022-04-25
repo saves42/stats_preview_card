@@ -12,6 +12,28 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Inter', sans-serif;
+    
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+/* typography */
+.lex-font {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.soft-white {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.softer-white {
+    color: hsla(0, 0%, 100%, 0.6);
 }
 
 /* layout */
@@ -33,6 +55,7 @@ main {
 }
 
 .info-container {
+    width: 50%;
     border-top-left-radius: 0.75em;
     border-bottom-left-radius: 0.75em;
     background-color: hsl(244, 38%, 16%);
@@ -40,12 +63,21 @@ main {
 }
 
 .stats-container {
+    width: 100%;
     display: flex;
+    justify-content: space-around;
 }
 
 .img-container img {
     border-top-right-radius: 0.75em;
     border-bottom-right-radius: 0.75em;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    : hsl(277, 64%, 61%);
+    
 }
 
 footer {

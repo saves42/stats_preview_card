@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Stats preview card component</title>
@@ -16,31 +18,40 @@
 </head>
 <body>
 <main class="row-flex">
+  
   <div class="info-container col-flex">
 
     <div>
       <h1>Get <span>insights</span> that help your business grow.</h1>
-      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+    </div>
+    <div>
+      <p class="soft-white">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
         experience, and overall efficiency.</p>
     </div>
+
     <div class="stats-container">
+      
       <div>
-        <p>10k+</p>
-        <p>companies</p>
+        <p class="softer-white">10k+</p>
+        <p class="lex-font soft-white">COMPANIES</p>
       </div>
+
       <div>
-        <p>314</p>
-        <p>templates</p>
+        <p class="softer-white">314</p>
+        <p class="lex-font soft-white">TEMPLATES</p>
       </div>
+
       <div>
-        <p>12m+</p>
-        <p>queries</p>
+        <p class="softer-white">12m+</p>
+        <p class="lex-font soft-white">QUERIES</p>
       </div>
+
     </div>
+
   </div>
 
 
-  <div class="img-container">
+  <div class="img-container overlay">
     <img src="images/image-header-desktop.jpg" alt="women in office">
   </div>
 
