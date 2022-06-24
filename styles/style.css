@@ -46,12 +46,22 @@ span {
     flex-direction: column;
 }
 
+.bold {
+    font-size: larger;
+    color: white;
+    font-weight: bolder;
+}
+
 /* main card */
 
 main {
     
     width: 80%;
     top: 50%;
+}
+
+.smaller {
+    
 }
 
 .info-container {
